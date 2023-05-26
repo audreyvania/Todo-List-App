@@ -40,7 +40,7 @@
 
 .edit-popup {
     z-index: 2;
-    width: 400px;
+    width: 300px;
     display: flex;
     justify-content: center;
     border-radius: 8px;
@@ -59,11 +59,11 @@
 .edit-popup label {
     display: block;
     font-size: 16px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .edit-popup input {
-    width: 280px;
+    width: 200px;
     border: 1px solid rgb(200, 200, 200);
     border-radius: 6px;
     padding: 8px 16px;
@@ -74,19 +74,19 @@
 .edit-popup .button {
     display: flex;
     justify-content: flex-end;
-    margin-top: 16px;
+    margin-top: 20px;
 }
 
 .edit-popup .button button {
     margin-left: 16px;
-    padding: 0px 16px;
+    padding: 13px;
     font-size: 13px;
     width: 25%;
     height: auto;
     font-family: "Poppins", sans-serif;
     border: none;
     color: white;
-    background-color: #813dfe;
+    background-color: #5d2cb7;
     border-radius: 8px;
     cursor: pointer;
 }
